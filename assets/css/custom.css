@@ -1,3 +1,8 @@
 .glow {
   text-shadow: 0 0 3px #000000;
 }
+
+div>div>div>div>.nobotpad {
+  padding-bottom: 0;
+  line-height: 0;
+}
