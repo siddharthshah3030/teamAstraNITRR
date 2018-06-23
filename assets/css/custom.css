@@ -6,3 +6,11 @@ div>div>div>div>.nobotpad {
   padding-bottom: 0;
   line-height: 0;
 }
+
+.white {
+  color: white;
+}
+
+.bold {
+  font-weight: bold;
+}
