@@ -2,6 +2,9 @@
   text-shadow: 0 0 3px #000000;
 }
 
+.sidbig{
+  width: 80%;
+}
 div>div>div>div>.nobotpad {
   padding-bottom: 0;
   line-height: 0;
