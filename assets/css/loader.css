@@ -3,15 +3,19 @@
   background-color: #f1c40f;
   /* overflow: hidden; */
 }
-h4 {
+#loadertext {
+  /* justify-content: center; */
+font-family: 'Lato', sans-serif;
   position: absolute;
   font-family: 'Open Sans';
   font-weight: 600;
-  font-size:12px;
+  font-size:1.6em;
   text-transform: uppercase;
   left: 35%;
-  top: 58%;
   margin-left: -20px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 58%;
 }
 .body {
 
