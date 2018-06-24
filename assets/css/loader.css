@@ -5,11 +5,11 @@
 }
 #loadertext {
   /* justify-content: center; */
-font-family: 'Lato', sans-serif;
+/* font-family: 'Lato', sans-serif; */
   position: absolute;
   font-family: 'Open Sans';
   font-weight: 600;
-  font-size:1.6em;
+  font-size:1.4em;
   text-transform: uppercase;
   left: 35%;
   margin-left: -20px;
@@ -17,6 +17,14 @@ font-family: 'Lato', sans-serif;
   margin-right: auto;
   top: 58%;
 }
+
+@media only screen and (max-width: 500px) {
+  #loadertext {
+
+  left: 15%;
+
+
+}}
 .body {
 
   background-color: #f1c40f;
@@ -99,6 +107,13 @@ font-family: 'Lato', sans-serif;
   position: absolute;
   animation: fazer1 0.2s linear infinite;
 }
+.body > span > span:nth-child(5), .body > span > span:nth-child(6), .body > span > span:nth-child(7), .body > span > span:nth-child(8) {
+  width: 30px;
+  height: 1px;
+  background: #000;
+  position: absolute;
+  animation: fazer1 0.2s linear infinite;
+}
 .body > span > span:nth-child(2) {
   top: 3px;
   animation: fazer2 0.4s linear infinite;
@@ -112,6 +127,24 @@ font-family: 'Lato', sans-serif;
   top: 4px;
   animation: fazer4 1s linear infinite;
   animation-delay: -1s;
+}
+.body > span > span:nth-child(5) {
+  top: 4px;
+  top: 3px;
+  animation: fazer2 0.4s linear infinite;
+    animation-delay: -0.5s;
+}.body > span > span:nth-child(6) {
+  top: 4px;
+  animation: fazer4 1s linear infinite;
+  animation-delay: 0.5s;
+}.body > span > span:nth-child(7) {
+  top: 4px;
+  animation: fazer4 1s linear infinite;
+  animation-delay: 0;
+}.body > span > span:nth-child(8) {
+  top: 4px;
+  animation: fazer4 1s linear infinite;
+  animation-delay: 0;
 }
 @keyframes fazer1 {
   0% {
