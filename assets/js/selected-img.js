@@ -1,20 +1,19 @@
-var selectedImg = document.querySelector('.selected-img img');
-var imgBox = document.querySelector('.selected-img');;
 var galleryImgs = document.querySelectorAll('.flexbin img');
+var selectedImg = document.querySelector('.selected-img img');
+var displaySelectedImg = document.querySelector('.selected-img');;
 var deselectImgBtn = document.querySelector('#deselect-img-btn');
 
 deselectImgBtn.addEventListener('click', function(){
-    imgBox.style.display = 'none';
+    displaySelectedImg.style.height = '0';
+    selectedImg.style.scale = '0';        
+    selectedImg.style.opacity = '1';        
 })
 
 galleryImgs.forEach(function(img) {
     img.addEventListener('click', function () {
-        console.log(img.src);
+        displaySelectedImg.style.height = '100%';
+        selectedImg.style.scale = '1';        
+        selectedImg.style.opacity = '1';        
         selectedImg.src = img.src;
-        selectedImg.style.display = 'block';
     });
 })
-
-galleryImgs.onclick = (event) => {
-    console.log(event);
-}
