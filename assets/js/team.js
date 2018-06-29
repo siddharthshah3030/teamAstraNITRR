@@ -10,7 +10,7 @@ teamInfo.forEach((member) => {
                 <div class="overlay-social-icon text-center">
                 <ul class="social-icons">
                     <li>
-                    <a href="#">
+                    <a href="${member.social_media.split('\n')[0]}" target="_blank">
                         <i class="lni-link" aria-hidden="true"></i>
                     </a>
                     </li>
