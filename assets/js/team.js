@@ -8,7 +8,7 @@ teamInfo.sort(function(a,b){
 teamInfo.forEach((member) => {
     console.log(member.img);
     team[0].innerHTML +=`
-        <div class="team-item wow fadeInUp" data-wow-delay="1.2s">
+        <div class="team-item wow fadeInUp" data-wow-delay="0.2s">
             <div class="team-img">
                 <img class="img-fluid" src="./assets/img/team300/${member.name.toLowerCase()}.jpg" alt="">
             <div class="team-overlay">
