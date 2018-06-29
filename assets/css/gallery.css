@@ -38,7 +38,7 @@
 }
 
 .show {
-  animation: img-show-hide .6s ease-in-out forwards;
+  animation: img-show-hide .3s ease-in-out forwards;
 }
 
 @keyframes img-show-hide {
