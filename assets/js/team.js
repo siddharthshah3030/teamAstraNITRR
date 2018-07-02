@@ -30,4 +30,5 @@ teamInfo.forEach((member) => {
         `;
 })
 
-// console.log(team[0].innerHTML);
+
+

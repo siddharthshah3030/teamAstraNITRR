@@ -1,4 +1,5 @@
-var teamInfo = [
+// var teamInfo = [
+module.exports = [
   {
     "timestamp": "2018/06/27 5:06:27 PM GMT+5:30",
     "email": "pratikvermam@gmail.com",
