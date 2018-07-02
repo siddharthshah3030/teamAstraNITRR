@@ -37,7 +37,7 @@ let output = {
     volunteer
 }
 
-fs.writeFile('assets/js/team-info-built.js', 'let output = ' + JSON.stringify(output, null, 2), function (err) {
+fs.writeFile('assets/js/team-info-compiled.js', 'let output = ' + JSON.stringify(output, null, 2), function (err) {
     if (err) {
         return console.log(err)
     }
