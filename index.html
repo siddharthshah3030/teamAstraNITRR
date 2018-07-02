@@ -668,68 +668,55 @@
       <div class="row justify-content-center">
         <div class="col-12">
           <div class="section-title-header text-center">
-            <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Drop A Message</h1>
-            <p class="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p>
+            <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Message Us</h1>
+            <p class="wow fadeInDown nobotpad" data-wow-delay="0.2s">got any queries then just submit the form below</p>
           </div>
         </div>
         <div class="col-lg-7 col-md-12 col-xs-12">
           <div class="container-form wow fadeInLeft" data-wow-delay="0.2s">
             <div class="form-wrapper">
 
-                <form id="gform" method="POST" name="contact-form" data-toggle="validator" class="pure-form pure-form-stacked" data-email="example@email.net"
-                action="https://script.google.com/macros/s/AKfycbx1jydA76B2dDvISFhg6SC42Po4OXdo7i5cbItaQA/exec">
-                  <!-- change the form action to your script url -->
-                  <div class="row">
-
-                  <div class="col-md-6 form-line">
-                    <div class="form-group">
-                  <fieldset class="pure-group">
-                    <!-- <label for="name">Name: </label> -->
-                    <input id="name" name="name" placeholder="Name" />
-                  </fieldset>
-              </div>
-              </div>
-                  <div class="col-md-6 form-line">
-                    <div class="form-group">
-                  <fieldset class="pure-group">
-                    <!-- <label for="email"><em>Your</em> Email Address:</label> -->
-                    <input id="email" name="email" type="email" value=""
-                    required placeholder="email id"/>
-                    <span id="email-invalid" style="display:none">
-                      Must be a valid email address</span>
-                  </fieldset>
-                </div>
-                </div>
-
-
-                <div class="col-md-12 form-line">
-                  <div class="form-group">
-
-                  <fieldset class="pure-group">
-                    <!-- <label for="color">Favourite Color: </label> -->
-                    <input id="color" name="color" placeholder="Subject" />
-                  </fieldset>
-                </div>
-                </div>
-
-
-                  <div class="col-md-12 form-line">
-                    <div class="form-group">
-                  <fieldset class="pure-group">
-                    <!-- <label for="message">Message: </label> -->
-                    <textarea id="message" name="message" rows="10"
-                    placeholder="Tell us what's on your mind..."></textarea>
-                  </fieldset>
-
-                </div>
-                <div class="form-submit">
-                  <button class="btn btn-common button-success pure-button button-xlarge">
-                    <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
-                  </div>
-                </div>
-
-              </div>
-                </form>
+              <form id="gform" method="POST" name="contact-form" data-toggle="validator" class="pure-form pure-form-stacked" data-email="example@email.net" action="https://script.google.com/macros/s/AKfycbx1jydA76B2dDvISFhg6SC42Po4OXdo7i5cbItaQA/exec">
+          	<!-- change the form action to your script url -->
+          	<div class="row">
+          		<div class="col-md-6 form-line">
+          			<div class="form-group">
+          				<fieldset class="pure-group">
+          					<!-- <label for="name">Name: </label> -->
+          					<input id="name" name="name" placeholder="Name" />
+          				</fieldset>
+          			</div>
+          		</div>
+          		<div class="col-md-6 form-line">
+          			<div class="form-group">
+          				<fieldset class="pure-group">
+          					<!-- <label for="email"><em>Your</em> Email Address:</label> -->
+          					<input id="email" name="email" type="email" value="" required placeholder="email id" /> <span id="email-invalid" style="display:none">
+                                Must be a valid email address</span>
+          				</fieldset>
+          			</div>
+          		</div>
+          		<div class="col-md-12 form-line">
+          			<div class="form-group">
+          				<fieldset class="pure-group">
+          					<!-- <label for="color">Favourite Color: </label> -->
+          					<input id="color" name="color" placeholder="Subject" />
+          				</fieldset>
+          			</div>
+          		</div>
+          		<div class="col-md-12 form-line">
+          			<div class="form-group">
+          				<fieldset class="pure-group">
+          					<!-- <label for="message">Message: </label> -->
+          					<textarea id="message" name="message" rows="10" placeholder="Tell us what's on your mind..."></textarea>
+          				</fieldset>
+          			</div>
+          			<div class="form-submit">
+          				<button id="form-submit" class="btn btn-common button-success pure-button button-xlarge"> <i class="fa fa-paper-plane"></i>&nbsp;Submit</button>
+          			</div>
+          		</div>
+          	</div>
+          </form>
 <!--
                <form action="https://script.google.com/macros/s/AKfycbyerUGBRtSXoWDjuSusG-UkTcoplwj5SP5w47Y7QA/exec" data-email="example@email.net" role="form" method="post" id="gform" name="contact-form" data-toggle="validator">
                 <div class="row">
