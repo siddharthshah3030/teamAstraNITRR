@@ -28,7 +28,7 @@
 </head>
 
 <body>
-  <div id="preloader">
+  <!-- <div id="preloader">
     <div class="body">
       <span>
         <span></span>
@@ -56,7 +56,7 @@
       <span></span>
     </div>
     <h4 id="loadertext">approaching Team Astra.. .</h4>
-  </div>
+  </div> -->
 
 
   <!-- Header Area wrapper Starts -->
@@ -431,11 +431,16 @@
         <div class="col-12">
           <div class="section-title-header text-center">
             <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Our team members</h1>
-            <p class="wow fadeInDown" data-wow-delay="0.2s">some line in here</p>
+            <!-- <p class="wow fadeInDown" data-wow-delay="0.2s">some line in here</p> -->
           </div>
         </div>
       </div>
-      <div class="d-flex flex-wrap members justify-content-center"></div>
+      <h2>TEAM 2K19</h2>
+      <div id="team19"></div>
+      <h2>TEAM 2K18</h2>
+      <div id="team18"></div>
+      <h2>VOLUNTEER</h2>
+      <div id="volunteer"></div>
       <!-- <a href="speakers.html" class="btn btn-common mt-30 wow fadeInUp" data-wow-delay="1.9s">All Speakers</a> -->
     </div>
   </section>
@@ -522,7 +527,7 @@
               <a href="#"><img class="img-fluid" src="assets/img/sponsors/logo-02.png" alt=""></a>
             </div>
           </div> -->
-        <!-- <div class="col-md-3 col-sm-3 col-xs-12">
+  <!-- <div class="col-md-3 col-sm-3 col-xs-12">
             <div class="spnsors-logo">
               <a href="#"><img class="img-fluid" src="assets/img/sponsors/logo-03.png" alt=""></a>
             </div>
@@ -532,12 +537,12 @@
               <a href="#"><img class="img-fluid" src="assets/img/sponsors/logo-04.png" alt=""></a>
             </div>
           </div> -->
-        <!-- <div class="col-12 text-center">
+  <!-- <div class="col-12 text-center">
             <a href="#" class="btn btn-common">become a sponsor</a>
           </div> -->
-      <!-- </div>
+  <!-- </div>
     </div>
-  </section> --> -->
+  </section> -->-->
   <!-- Sponsors Section End -->
 
   <!-- Blog Section Start -->
@@ -653,53 +658,58 @@
           <div class="container-form wow fadeInLeft" data-wow-delay="0.2s">
             <div class="form-wrapper">
 
-              <form id="gform" method="POST" onsubmit="" name="contact-form" class="pure-form pure-form-stacked" data-email="example@email.net" action="https://script.google.com/macros/s/AKfycbzHLEPXHhG3LoA7Fw1T4iwBteAuW8yg0S7bb_2K/exec">
-          	<div class="row">
+              <form id="gform" method="POST" onsubmit="" name="contact-form" class="pure-form pure-form-stacked" data-email="example@email.net"
+                action="https://script.google.com/macros/s/AKfycbzHLEPXHhG3LoA7Fw1T4iwBteAuW8yg0S7bb_2K/exec">
+                <div class="row">
 
-          		<div class="col-md-6 form-line">
+                  <div class="col-md-6 form-line">
 
-          			<div class="form-group">
-          				<fieldset class="pure-group">
-          					<input type="text" id="name" name="name" placeholder="Name" required  />
-          				</fieldset>
-          			</div>
-          		</div>
-          		<div class="col-md-6 form-line">
-          			<div class="form-group">
-          				<fieldset class="pure-group">
-          					<input id="email" name="email" type="email"  placeholder="email id" required /> <span id="email-invalid" style="display:none" >
-                                Must be a valid email address</span>
-          				</fieldset>
-          			</div>
-          		</div>
-          		<div class="col-md-12 form-line">
-          			<div class="form-group">
-          				<fieldset class="pure-group">
-          					<input id="title" name="title" placeholder="Subject" required />
-          				</fieldset>
-          			</div>
-          		</div>
-          		<div class="col-md-12 form-line">
-          			<div class="form-group">
-          				<fieldset class="pure-group">
-          					<!-- <label for="message">Message: </label> -->
-          					<textarea id="message" name="message" rows="10" placeholder="Tell us what's on your mind..."></textarea>
-          				</fieldset>
-          			</div>
-          			<div class="form-submit">
-                  <small id="formcheck" style="display:none;color:red;" class="">sorry but it can't be blank</small></br>
+                    <div class="form-group">
+                      <fieldset class="pure-group">
+                        <input type="text" id="name" name="name" placeholder="Name" required />
+                      </fieldset>
+                    </div>
+                  </div>
+                  <div class="col-md-6 form-line">
+                    <div class="form-group">
+                      <fieldset class="pure-group">
+                        <input id="email" name="email" type="email" placeholder="email id" required />
+                        <span id="email-invalid" style="display:none">
+                          Must be a valid email address</span>
+                      </fieldset>
+                    </div>
+                  </div>
+                  <div class="col-md-12 form-line">
+                    <div class="form-group">
+                      <fieldset class="pure-group">
+                        <input id="title" name="title" placeholder="Subject" required />
+                      </fieldset>
+                    </div>
+                  </div>
+                  <div class="col-md-12 form-line">
+                    <div class="form-group">
+                      <fieldset class="pure-group">
+                        <!-- <label for="message">Message: </label> -->
+                        <textarea id="message" name="message" rows="10" placeholder="Tell us what's on your mind..."></textarea>
+                      </fieldset>
+                    </div>
+                    <div class="form-submit">
+                      <small id="formcheck" style="display:none;color:red;" class="">sorry but it can't be blank</small>
+                      </br>
 
-          				<button id="form-submit" class="btn btn-common button-success pure-button button-xlarge"> <i class="fa fa-paper-plane"></i>&nbsp;Submit</button>
-          			</div>
-          		</div>
-          	</div>
-          </form>
+                      <button id="form-submit" class="btn btn-common button-success pure-button button-xlarge">
+                        <i class="fa fa-paper-plane"></i>&nbsp;Submit</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
 
 
               <div style="display:none;" id="thankyou_message">
-  <h5><em>Thanks</em> for contacting us! <br />
-    Team Astra will get back to you soon!</h5>
-</div>
+                <h5>
+                  <em>Thanks</em> for contacting us!
+                  <br /> Team Astra will get back to you soon!</h5>
+              </div>
 
 
             </div>
@@ -786,7 +796,7 @@
   <script src="assets/js/jquery.countdown.min.js"></script>
   <script src="assets/js/jquery.nav.js"></script>
   <script src="assets/js/jquery.easing.min.js"></script>
-  <script src="assets/js/wow.js"></script>
+  <!-- <script src="assets/js/wow.js"></script> -->
   <script src="assets/js/jquery.slicknav.js"></script>
   <script src="assets/js/nivo-lightbox.js"></script>
   <script src="assets/js/main.js"></script>
@@ -794,8 +804,9 @@
   <script src="assets/js/contact-form-script.min.js"></script>
   <script src="assets/js/map.js"></script>
   <script src="assets/js/gallery.js"></script>
-  <script src="assets/js/astra-2k18-team-info.js"></script>
+  <script src="assets/js/team-info-compiled.js"></script>
   <script src="assets/js/team.js"></script>
   <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
 </body>
+
 </html>

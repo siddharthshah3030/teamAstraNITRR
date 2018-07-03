@@ -1,4 +1,4 @@
-let output = {
+let teamInfoCompiled = {
   "team18": {
     "Mechanical": [
       {
