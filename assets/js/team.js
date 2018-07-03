@@ -10,17 +10,17 @@ function build_team(place, team_data) {
             member_div.classList.add('team-item', 'wow', 'fadeInUp')
             member_div.innerHTML = `
                 <div class="team-img">
-                <img class="img-fluid" src="./assets/img/team300/${member.name.toLowerCase()}.jpg" alt="">
-                <div class="team-overlay">
-                    <div class="overlay-social-icon text-center">
-                    <ul class="social-icons">
-                        <li><a target="blank" href="${member.social_media}"><i class="lni-anchor" aria-hidden="true"></i></a></li>
-                    </ul>
+                    <img class="img-fluid" src="./assets/img/team300/${member.name.toLowerCase()}.jpg" alt="">
+                    <div class="team-overlay">
+                        <div class="overlay-social-icon text-center">
+                            <ul class="social-icons">
+                                <li><a target="blank" href="${member.social_media}"><i class="lni-anchor" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                </div>
                 <div class="info-text">
-                <h3>${member.name}</h3>
+                    <h3>${member.name}</h3>
                 </div>
             `;
             place.appendChild(member_div)
