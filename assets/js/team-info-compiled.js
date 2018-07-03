@@ -108,13 +108,13 @@ let teamInfoCompiled = {
       },
       {
         "timestamp": "2018/06/28 3:01:52 PM GMT+5:30",
-        "email": "shubhamcool260@gmkj.bjh",
-        "name": "sd",
+        "email": "siddharthshah3030@gmail.com",
+        "name": "siddharth shah",
         "branch": "CSE",
         "Semester": 7,
         "contact_no": "sd",
         "desig": "Team 2018",
-        "social_media": "sd",
+        "social_media": "https://www.facebook.com/siddharth.shah.357622",
         "img": "https://drive.google.com/open?authuser=0&usp=forms_web&id=14nuH4_kI0YzT-5SnAqoQHp6Y79XftqgG"
       }
     ]

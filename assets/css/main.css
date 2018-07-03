@@ -1305,6 +1305,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   padding: 3px;
   border-radius: 4px;
   width: 150px;
+  height: 150px;
   position: relative;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.17);
   transition: all 0.3s ease-in-out 0s;
@@ -1392,6 +1393,10 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: #fb3958;
 }
 
+#team h2 {
+  font-size: 28px;
+}
+
 .team-item .info-text {
   position: absolute;
   padding: 15px 0px ;;
@@ -1402,11 +1407,12 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .team-item .info-text h3 {
-  font-size: 16px;
+  font-size: 12px;
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 5px;
 }
+
 
 .team-item .info-text h3 a {
   color: #212121;

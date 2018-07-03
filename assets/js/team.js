@@ -5,14 +5,6 @@ var volunteer = document.querySelector('#volunteer');
 function build_team(place, team_data) {
     place.classList.add('d-flex', 'justify-content-center')
     Object.keys(team_data).forEach((branch) => {
-        var div = document.createElement('div')
-        div.classList.add(branch, 'm-2')
-
-        var p = document.createElement('p')
-        p.classList.add('font-weight-bold')
-        p.innerHTML = branch
-        div.appendChild(p)
-
         team_data[branch].forEach((member) => {
             var member_div = document.createElement('div')
             member_div.classList.add('team-item', 'wow', 'fadeInUp')
@@ -22,7 +14,7 @@ function build_team(place, team_data) {
                 <div class="team-overlay">
                     <div class="overlay-social-icon text-center">
                     <ul class="social-icons">
-                        <li><a target="blank" href="${member.social_media}"><i class="lni-plug" aria-hidden="true"></i></a></li>
+                        <li><a target="blank" href="${member.social_media}"><i class="lni-anchor" aria-hidden="true"></i></a></li>
                     </ul>
                     </div>
                 </div>
@@ -31,10 +23,10 @@ function build_team(place, team_data) {
                 <h3>${member.name}</h3>
                 </div>
             `;
-            div.appendChild(member_div)
+            place.appendChild(member_div)
             console.log(member_div);
         })
-        place.appendChild(div)
+        // place.appendChild(div)
     })
 }
 
