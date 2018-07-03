@@ -1401,7 +1401,6 @@ a.back-to-top:hover, a.back-to-top:focus {
   position: absolute;
   padding: 15px 0px ;
   /* background: #f3f4f3; */
-  text-align: left;
   width: 100%;
   text-align: center;
 }
@@ -1409,6 +1408,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 .team-item .info-text h3 {
   font-size: 12px;
   text-transform: uppercase;
+  text-align: center;
   font-weight: 700;
   margin-bottom: 5px;
 }

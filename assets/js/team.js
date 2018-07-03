@@ -7,7 +7,7 @@ function build_team(place, team_data) {
     Object.keys(team_data).forEach((branch) => {
         team_data[branch].forEach((member) => {
             var member_div = document.createElement('div')
-            member_div.classList.add('team-item', 'wow', 'fadeInUp')
+            member_div.classList.add('team-item', 'wow', 'fadeInUp', 'my-sm-4')
             member_div.innerHTML = `
                 <div class="team-img">
                     <img class="img-fluid" src="./assets/img/team300/${member.name.toLowerCase()}.jpg" alt="">
