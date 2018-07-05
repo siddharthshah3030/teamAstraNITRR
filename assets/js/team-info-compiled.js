@@ -2,17 +2,6 @@ let teamInfoCompiled = {
   "team18": {
     "Mechanical": [
       {
-        "timestamp": "2018/06/27 5:06:27 PM GMT+5:30",
-        "email": "pratikvermam@gmail.com",
-        "name": "Pratik Tolambiya",
-        "branch": "Mechanical",
-        "semester": 3,
-        "contact_no": 9309092544,
-        "desig": "Team 2018",
-        "social_media": "FB, LinkedIn, Twitter.",
-        "img": "https://drive.google.com/open?authuser=0&usp=forms_web&id=1kp-atlR885Vr5v9ToCVJZLoNtqyMdeWT"
-      },
-      {
         "timestamp": "2018/06/27 5:12:27 PM GMT+5:30",
         "email": "satvik.9999@gmail.com",
         "name": "Satvik Sabarad",
@@ -95,28 +84,7 @@ let teamInfoCompiled = {
       }
     ],
     "CSE": [
-      {
-        "timestamp": "2018/06/28 11:17:52 AM GMT+5:30",
-        "email": "naveennvrgup@gmail.com",
-        "name": "Naveen Sundar",
-        "branch": "CSE",
-        "Semester": 3,
-        "contact_no": "08940073123",
-        "desig": "Team 2018",
-        "social_media": "https://www.facebook.com/dragnov111 \nhttps://www.linkedin.com/in/naveen-sundar-179a0a14a/\nhttps://twitter.com/naveennvrgup",
-        "img": "https://drive.google.com/open?authuser=0&usp=forms_web&id=1qtb5O7Y03MaWwIAkgCWv1xdvuRdef7eR"
-      },
-      {
-        "timestamp": "2018/06/28 3:01:52 PM GMT+5:30",
-        "email": "siddharthshah3030@gmail.com",
-        "name": "siddharth shah",
-        "branch": "CSE",
-        "Semester": 7,
-        "contact_no": "sd",
-        "desig": "Team 2018",
-        "social_media": "https://www.facebook.com/siddharth.shah.357622",
-        "img": "https://drive.google.com/open?authuser=0&usp=forms_web&id=14nuH4_kI0YzT-5SnAqoQHp6Y79XftqgG"
-      }
+      
     ]
   },
   "team19": {
@@ -219,7 +187,18 @@ let teamInfoCompiled = {
         "desig": "Team 2019",
         "social_media": "https://www.facebook.com/profile.php?id=100022035639491&ref=bookmarks",
         "img": "https://drive.google.com/open?authuser=0&usp=forms_web&id=1kGkLJbaWz3Jf0Y3njtvx28LkxP1d6gBo"
-      }
+      },
+      {
+        "timestamp": "2018/06/27 5:06:27 PM GMT+5:30",
+        "email": "pratikvermam@gmail.com",
+        "name": "Pratik Tolambiya",
+        "branch": "Mechanical",
+        "semester": 3,
+        "contact_no": 9309092544,
+        "desig": "Team 2018",
+        "social_media": "FB, LinkedIn, Twitter.",
+        "img": "https://drive.google.com/open?authuser=0&usp=forms_web&id=1kp-atlR885Vr5v9ToCVJZLoNtqyMdeWT"
+      },
     ],
     "Electrical": [
       {
@@ -328,6 +307,28 @@ let teamInfoCompiled = {
         "desig": "Volunteer",
         "social_media": "https://www.facebook.com/dipanshudaga\nhttps://www.linkedin.com/in/dipanshudaga/",
         "img": "https://drive.google.com/open?authuser=0&usp=forms_web&id=16UVbakTWgygRsux18quBieQJh5yjs6zM"
+      },
+      {
+        "timestamp": "2018/06/28 11:17:52 AM GMT+5:30",
+        "email": "naveennvrgup@gmail.com",
+        "name": "Naveen Sundar",
+        "branch": "CSE",
+        "Semester": 3,
+        "contact_no": "08940073123",
+        "desig": "Team 2018",
+        "social_media": "https://www.facebook.com/dragnov111 \nhttps://www.linkedin.com/in/naveen-sundar-179a0a14a/\nhttps://twitter.com/naveennvrgup",
+        "img": "https://drive.google.com/open?authuser=0&usp=forms_web&id=1qtb5O7Y03MaWwIAkgCWv1xdvuRdef7eR"
+      },
+      {
+        "timestamp": "2018/06/28 3:01:52 PM GMT+5:30",
+        "email": "siddharthshah3030@gmail.com",
+        "name": "siddharth shah",
+        "branch": "CSE",
+        "Semester": 7,
+        "contact_no": "sd",
+        "desig": "Team 2018",
+        "social_media": "https://www.facebook.com/siddharth.shah.357622",
+        "img": "https://drive.google.com/open?authuser=0&usp=forms_web&id=14nuH4_kI0YzT-5SnAqoQHp6Y79XftqgG"
       }
     ],
     "Electrical": [
