@@ -1,3 +1,31 @@
+@font-face {
+font-family: "FerroRosso";
+src:  url('../fonts/FerroRosso.ttf');
+src:
+/* url("css/fonts/Harabara.woff") format("woff"),
+url("css/fonts/Harabara.otf") format("opentype"),
+url("css/fonts/Harabara.svg#filename") format("svg"); */
+}
+
+#headertitle {
+  font-family: FerroRosso;
+  color: #E91E63;
+  /* font-size: 2em; */
+/* height: 100%; */
+/* font-size: 2.5em; */
+/* object-fit: cover; */
+/* font-stretch: ultra-expanded; */
+/* font-size-adjust: 100%; */
+font-size: calc(24px + 3vw);
+
+
+}
+
+#headerspan {
+  margin: 0;
+  margin-left: 10px;
+
+}
 
 form input {
   width: 100%;
@@ -83,7 +111,7 @@ div>div>div>div>.nobotpad {
     font-size: 10px;
   }
   .team-item {
-    margin:2px 0; 
+    margin:2px 0;
     width: 32%;
     justify-content: center;
     box-sizing: border-box;
