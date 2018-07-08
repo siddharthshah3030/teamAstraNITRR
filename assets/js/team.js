@@ -24,7 +24,6 @@ function build_team(place, team_data) {
                 </div>
             `;
             place.appendChild(member_div)
-            console.log(member_div);
         })
         // place.appendChild(div)
     })
